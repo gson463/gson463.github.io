@@ -22,8 +22,8 @@
     "go-makazi": "GoMakazi",
     "nyumba-cloud": "Nyumba Cloud",
     "compliance-portal": "Compliance Portal",
-    "ibs-web-d": "IBS Accounts Web D",
-    "ibs-web": "IBS Accounts Web App",
+    "ibs-web-d": "IBS Accounts (Web D)",
+    "ibs-web": "IBS Accounts (Web)",
     "ibs-accounts-website": "IBS Accounts Website",
     "mukwano-loans": "Mukwano Loans",
     "ajiramiamoja": "Ajira Moja Mia Moja",
@@ -38,6 +38,9 @@
     "gosany-gohostels": "Hostel management system — landlord and student applications.",
     "plusnology": "Technology business website and platform.",
     "FaraghaIQ": "Security intelligence platform.",
-    "con-kateti": "Web application platform."
+    "con-kateti": "Web application platform.",
+    "ibs-web-d": "Cloud accounting & ERP — chart of accounts, general ledger, sales & purchase invoicing, inventory, fixed assets & depreciation, bank reconciliation, VAT returns, multi-currency treasury, payroll, and financial statements with reporting packs.",
+    "ibs-web": "IBS Accounts Next.js web application — accounting and business management.",
+    "ibs-accounts-website": "Marketing website for IBS Accounts cloud accounting software."
   }
 }

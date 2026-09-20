@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:50:33.430Z",
+  "generatedAt": "2026-09-20T18:51:36.042Z",
   "count": 25,
   "projects": [
     {
@@ -158,11 +158,11 @@
     },
     {
       "id": "ibs-web-d",
-      "title": "IBS Accounts Web D",
-      "description": "IBS Accounts — Web D standalone Supabase SPA (Vite + React)",
+      "title": "IBS Accounts (Web D)",
+      "description": "Cloud accounting & ERP — chart of accounts, general ledger, sales & purchase invoicing, inventory, fixed assets & depreciation, bank reconciliation, VAT returns, multi-currency treasury, payroll, and financial statements with reporting packs.",
       "category": "finance",
       "categoryLabel": "Finance",
-      "stack": "TypeScript · Supabase · Vite · React",
+      "stack": "TypeScript",
       "url": "https://github.com/gson463/ibs-web-d",
       "updatedAt": "2026-09-01T15:25:16Z",
       "private": true
@@ -224,8 +224,8 @@
     },
     {
       "id": "ibs-web",
-      "title": "IBS Accounts Web App",
-      "description": "IBS Accounts - Next.js web app",
+      "title": "IBS Accounts (Web)",
+      "description": "IBS Accounts Next.js web application — accounting and business management.",
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "TypeScript · Next.js",
@@ -247,10 +247,10 @@
     {
       "id": "ibs-accounts-website",
       "title": "IBS Accounts Website",
-      "description": "IBS Accounts marketing site (Next.js)",
+      "description": "Marketing website for IBS Accounts cloud accounting software.",
       "category": "finance",
       "categoryLabel": "Finance",
-      "stack": "TypeScript · Next.js",
+      "stack": "TypeScript",
       "url": "https://github.com/gson463/ibs-accounts-website",
       "updatedAt": "2026-04-28T17:11:16Z",
       "private": true

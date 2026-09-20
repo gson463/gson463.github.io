@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-20T19:24:04.087Z",
+  "generatedAt": "2026-09-20T19:24:19.503Z",
   "count": 30,
   "softwareCount": 25,
   "projects": [
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "private": true
+    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -12,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:24:04.086Z",
+      "updatedAt": "2026-09-20T19:24:19.503Z",
       "private": true
     },
     {
@@ -23,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-20T19:24:04.086Z",
+      "updatedAt": "2026-09-20T19:24:19.503Z",
       "private": true
     },
     {
@@ -34,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-20T19:24:04.086Z",
+      "updatedAt": "2026-09-20T19:24:19.503Z",
       "private": true
     },
     {
@@ -45,19 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-20T19:24:04.086Z",
+      "updatedAt": "2026-09-20T19:24:19.503Z",
       "private": true
     },
     {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
+      "category": "property",
+      "categoryLabel": "Property",
       "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:24:04.085Z",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-09-20T19:24:12Z",
       "private": true
     },
     {
@@ -227,19 +240,6 @@
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
       "updatedAt": "2026-09-19T14:22:35Z",
-      "private": true
-    },
-    {
-      "id": "nyumba-cloud",
-      "title": "Nyumba Cloud",
-      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
-      "category": "property",
-      "categoryLabel": "Property",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/nyumba-cloud",
-      "updatedAt": "2026-09-17T16:20:11Z",
       "private": true
     },
     {

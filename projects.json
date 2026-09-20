@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-09-20T18:58:04.053Z",
+  "generatedAt": "2026-09-20T19:00:10.634Z",
   "count": 27,
   "projects": [
-    {
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:58:04.053Z",
-      "private": true
-    },
     {
       "id": "gohostels-one-landlord-app",
       "title": "GoHostels One — Landlord App",
@@ -21,7 +10,18 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:58:04.053Z",
+      "updatedAt": "2026-09-20T19:00:10.634Z",
+      "private": true
+    },
+    {
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T19:00:10.633Z",
       "private": true
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "blb",
       "title": "BLB (BELIBELI Digital Manager)",
-      "description": "BELIBELI Digital Manager - monorepo",
+      "description": "BELIBELI Digital Manager — property, units, tenants, leases, invoices, and payments management.",
       "category": "property",
       "categoryLabel": "Property",
       "stack": "JavaScript",
@@ -266,7 +266,7 @@
     },
     {
       "id": "ibs-web",
-      "title": "IBS Accounts (Legacy Web)",
+      "title": "IBS Accounts (Web)",
       "description": "Earlier Next.js web application for IBS Accounts — accounting and business management.",
       "category": "finance",
       "categoryLabel": "Finance",
@@ -278,8 +278,8 @@
     },
     {
       "id": "simu-jiji",
-      "title": "Simu Jiji Monorepo",
-      "description": "Simu Jiji — monorepo (web, API, PocketBase)",
+      "title": "Simu Jiji Platform",
+      "description": "Web storefront, API, and PocketBase backend for the Simu Jiji phone business platform.",
       "category": "commerce",
       "categoryLabel": "E-commerce",
       "stack": "JavaScript · PocketBase",

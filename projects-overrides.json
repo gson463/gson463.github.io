@@ -12,7 +12,7 @@
     "fcl-microfinance": "FCL (Fahari Credits Limited)",
     "sj-ecommerce": "Simu Jiji E-commerce",
     "simu-jiji-system": "Simu Jiji Portal",
-    "simu-jiji": "Simu Jiji Monorepo",
+    "simu-jiji": "Simu Jiji Platform",
     "sj": "Simu Jiji Storefront",
     "blb": "BLB (BELIBELI Digital Manager)",
     "pharmacy-pms": "Pharmacy PMS",
@@ -23,7 +23,7 @@
     "nyumba-cloud": "Nyumba Cloud",
     "compliance-portal": "Compliance Portal",
     "ibs-web-d": "IBS Accounts",
-    "ibs-web": "IBS Accounts (Legacy Web)",
+    "ibs-web": "IBS Accounts (Web)",
     "ibs-accounts-website": "IBS Accounts — Product Site",
     "mukwano-loans": "Mukwano Loans",
     "ajiramiamoja": "Ajira Moja Mia Moja",
@@ -43,7 +43,9 @@
     "ibs-web-d": "Payroll & accounting software for growing teams in Tanzania. IBS Payroll Gateway (PPGS-V1) keeps compensation accurate and compliant; IBS Accounting (PASG-V1) delivers general ledger, reporting, and period close — plus sales & purchase invoicing, inventory, fixed assets, bank reconciliation, VAT, multi-currency treasury, and financial statements. Deploy as payroll-only, accounting-only, or the integrated Payroll + Accounting stack (PAPSG-V1).",
     "ibs-web": "Earlier Next.js web application for IBS Accounts — accounting and business management.",
     "ibs-accounts-website": "Official product website — annual subscription packages in TZS, payroll bands by headcount, accounting tiers, complimentary training, year-round support, and onboarding for finance and HR teams.",
-    "voguethics": "Cybersecurity and security awareness training from Tanzania."
+    "voguethics": "Cybersecurity and security awareness training from Tanzania.",
+    "simu-jiji": "Web storefront, API, and PocketBase backend for the Simu Jiji phone business platform.",
+    "blb": "BELIBELI Digital Manager — property, units, tenants, leases, invoices, and payments management."
   },
   "stacks": {
     "gosany-gohostels": "React · Vite · Supabase · Capacitor",

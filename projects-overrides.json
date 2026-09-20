@@ -22,9 +22,9 @@
     "go-makazi": "GoMakazi",
     "nyumba-cloud": "Nyumba Cloud",
     "compliance-portal": "Compliance Portal",
-    "ibs-web-d": "IBS Accounts (Web D)",
-    "ibs-web": "IBS Accounts (Web)",
-    "ibs-accounts-website": "IBS Accounts Website",
+    "ibs-web-d": "IBS Accounts",
+    "ibs-web": "IBS Accounts (Legacy Web)",
+    "ibs-accounts-website": "IBS Accounts — Product Site",
     "mukwano-loans": "Mukwano Loans",
     "ajiramiamoja": "Ajira Moja Mia Moja",
     "Vilo": "Vijana Life Organization (Vilo)",
@@ -40,9 +40,9 @@
     "plusnology": "Technology business website and platform.",
     "FaraghaIQ": "Security intelligence platform.",
     "con-kateti": "Web application platform.",
-    "ibs-web-d": "Cloud accounting & ERP — chart of accounts, general ledger, sales & purchase invoicing, inventory, fixed assets & depreciation, bank reconciliation, VAT returns, multi-currency treasury, payroll, and financial statements with reporting packs.",
-    "ibs-web": "IBS Accounts Next.js web application — accounting and business management.",
-    "ibs-accounts-website": "Marketing website for IBS Accounts cloud accounting software.",
+    "ibs-web-d": "Payroll & accounting software for growing teams in Tanzania. IBS Payroll Gateway (PPGS-V1) keeps compensation accurate and compliant; IBS Accounting (PASG-V1) delivers general ledger, reporting, and period close — plus sales & purchase invoicing, inventory, fixed assets, bank reconciliation, VAT, multi-currency treasury, and financial statements. Deploy as payroll-only, accounting-only, or the integrated Payroll + Accounting stack (PAPSG-V1).",
+    "ibs-web": "Earlier Next.js web application for IBS Accounts — accounting and business management.",
+    "ibs-accounts-website": "Official product website — annual subscription packages in TZS, payroll bands by headcount, accounting tiers, complimentary training, year-round support, and onboarding for finance and HR teams.",
     "voguethics": "Cybersecurity and security awareness training from Tanzania."
   },
   "stacks": {
@@ -54,7 +54,9 @@
     "gosany-gohostels": "https://gosany.co.tz/gohostels",
     "go-makazi": "https://gosany.co.tz/gomakazi",
     "gosany-platform": "https://gosany.co.tz",
-    "voguethics": "https://voguethics.org"
+    "voguethics": "https://voguethics.org",
+    "ibs-web-d": "https://ibsaccounts.com",
+    "ibs-accounts-website": "https://ibsaccounts.com"
   },
   "extraProjects": [
     {

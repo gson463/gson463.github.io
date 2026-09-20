@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-09-20T18:53:21.506Z",
+  "generatedAt": "2026-09-20T18:53:34.158Z",
   "count": 27,
   "projects": [
-    {
-      "id": "gohostels-one-landlord-app",
-      "title": "GoHostels One — Landlord App",
-      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:53:21.506Z",
-      "private": true
-    },
     {
       "id": "gohostels-one-student-app",
       "title": "GoHostels One — Student App",
@@ -21,7 +10,18 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:53:21.504Z",
+      "updatedAt": "2026-09-20T18:53:34.158Z",
+      "private": true
+    },
+    {
+      "id": "gohostels-one-landlord-app",
+      "title": "GoHostels One — Landlord App",
+      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T18:53:34.158Z",
       "private": true
     },
     {
@@ -295,7 +295,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "TypeScript",
-      "website": "https://ibsaccounts.com",
+      "website": null,
       "url": "https://github.com/gson463/ibs-accounts-website",
       "updatedAt": "2026-04-28T17:11:16Z",
       "private": true

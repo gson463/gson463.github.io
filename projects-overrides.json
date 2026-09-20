@@ -18,39 +18,53 @@
     "pharmacy-pms": "Pharmacy PMS",
     "voguethics": "Vogu Ethics",
     "gosany-platform": "Gosany Platform (GOSEP)",
-    "gosany-gohostels": "GoHostels One (Web)",
+    "gosany-gohostels": "GoHostels One",
     "go-makazi": "GoMakazi",
     "nyumba-cloud": "Nyumba Cloud",
     "compliance-portal": "Compliance Portal",
     "ibs-web-d": "IBS Accounts",
-    "ibs-web": "IBS Accounts (Web)",
+    "ibs-web": "IBS Accounts — Next.js",
     "ibs-accounts-website": "IBS Accounts — Product Site",
+    "mukwano": "Mukwano Financial Services",
     "mukwano-loans": "Mukwano Loans",
     "ajiramiamoja": "Ajira Moja Mia Moja",
     "Vilo": "Vijana Life Organization (Vilo)",
     "taka-Point-Portal": "Taka Point Portal"
+  },
+  "kinds": {
+    "ibs-accounts-website": "website",
+    "ajiramiamoja": "website",
+    "Vilo": "website",
+    "plusnology": "website",
+    "voguethics": "website"
   },
   "categories": {
     "Simple-NetCon-DataApp": "security"
   },
   "descriptions": {
     "gosany-platform": "Gosany enterprise platform — modular monolith for hospitality and enterprise products (GOSEP).",
-    "gosany-gohostels": "GoHostels One web platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+    "gosany-gohostels": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+    "pharmacy-pms": "Pharmacy operations platform — multi-branch inventory with batch and expiry tracking, real-time stock control, sales, purchases, expense management, role-based access, and automated reports.",
     "go-makazi": "Tanzania property rental platform for tenants and landlords.",
     "plusnology": "Technology business website and platform.",
     "FaraghaIQ": "Security intelligence platform.",
-    "con-kateti": "Web application platform.",
+    "con-kateti": "Application platform.",
     "ibs-web-d": "Payroll & accounting software for growing teams in Tanzania. IBS Payroll Gateway (PPGS-V1) keeps compensation accurate and compliant; IBS Accounting (PASG-V1) delivers general ledger, reporting, and period close — plus sales & purchase invoicing, inventory, fixed assets, bank reconciliation, VAT, multi-currency treasury, and financial statements. Deploy as payroll-only, accounting-only, or the integrated Payroll + Accounting stack (PAPSG-V1).",
-    "ibs-web": "Earlier Next.js web application for IBS Accounts — accounting and business management.",
+    "ibs-web": "Earlier Next.js application for IBS Accounts — accounting and business management.",
     "ibs-accounts-website": "Official product website — annual subscription packages in TZS, payroll bands by headcount, accounting tiers, complimentary training, year-round support, and onboarding for finance and HR teams.",
     "voguethics": "Cybersecurity and security awareness training from Tanzania.",
-    "simu-jiji": "Web storefront, API, and PocketBase backend for the Simu Jiji phone business platform.",
-    "blb": "BELIBELI Digital Manager — property, units, tenants, leases, invoices, and payments management."
+    "simu-jiji": "Storefront, API, and PocketBase backend for the Simu Jiji phone business platform.",
+    "blb": "BELIBELI Digital Manager — property, units, tenants, leases, invoices, and payments management.",
+    "mukwano": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+    "mukwano-loans": "Microfinance loan management for Mukwano Financial Services — borrowers, centers and groups, loan disbursements, repayment schedules, collections and recovery, arrears and defaulters, branch-scoped dashboards, and role-based access with encrypted sessions."
   },
   "stacks": {
     "gosany-gohostels": "React · Vite · Supabase · Capacitor",
+    "pharmacy-pms": "Next.js · TypeScript · Prisma · SQLite",
     "go-makazi": "React · Supabase · Vite",
-    "ibs-web-d": "React · Vite · Supabase · TypeScript"
+    "ibs-web-d": "React · Vite · Supabase · TypeScript",
+    "mukwano": "React · Vite · Supabase",
+    "mukwano-loans": "React · Vite · Supabase"
   },
   "websites": {
     "gosany-gohostels": "https://gosany.co.tz/gohostels",
@@ -77,7 +91,35 @@
       "category": "platform",
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels"
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "kind": "software"
+    },
+    {
+      "id": "muhazini-portal",
+      "title": "Muhazini Portal",
+      "description": "Desktop church finance management — income, expenses, approval workflows, and reports.",
+      "category": "community",
+      "categoryLabel": "Community",
+      "stack": "Electron · React · SQLite",
+      "kind": "software"
+    },
+    {
+      "id": "vugachat",
+      "title": "VugaChat (TanzChina Business Chat)",
+      "description": "Tanzania–China business messaging app with automatic multilingual translation.",
+      "category": "community",
+      "categoryLabel": "Community",
+      "stack": "Expo · React Native · Supabase · TypeScript",
+      "kind": "software"
+    },
+    {
+      "id": "vugatalk",
+      "title": "VugaTalk",
+      "description": "Communication platform.",
+      "category": "community",
+      "categoryLabel": "Community",
+      "stack": "React",
+      "kind": "software"
     }
   ]
 }

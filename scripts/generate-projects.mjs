@@ -85,6 +85,7 @@ function buildProjects(repos, overrides) {
         description: description || 'Software system designed and built as lead developer.',
         category,
         categoryLabel,
+        kind: overrides.kinds?.[repo.name] || 'software',
         stack: overrides.stacks?.[repo.name] || detectStack(description, repo.primaryLanguage?.name),
         website,
         url: repo.url,
@@ -96,6 +97,7 @@ function buildProjects(repos, overrides) {
 
 function mergeExtraProjects(projects, overrides) {
   const extras = (overrides.extraProjects || []).map((p) => ({
+    kind: 'software',
     ...p,
     updatedAt: p.updatedAt || new Date().toISOString(),
     private: p.private ?? true,
@@ -109,11 +111,14 @@ const overrides = loadOverrides()
 const repos = fetchRepos()
 const projects = mergeExtraProjects(buildProjects(repos, overrides), overrides)
 
+const softwareCount = projects.filter((p) => p.kind !== 'website').length
+
 const output = {
   generatedAt: new Date().toISOString(),
   count: projects.length,
+  softwareCount,
   projects,
 }
 
 writeFileSync(join(root, 'projects.json'), JSON.stringify(output, null, 2) + '\n')
-console.log(`Wrote ${projects.length} projects to projects.json`)
+console.log(`Wrote ${projects.length} projects (${softwareCount} software) to projects.json`)

@@ -470,7 +470,7 @@
         </div>
         <div class="stat">
           <div class="stat-num" id="projectCount" data-target="0">0</div>
-          <div class="stat-label">Projects Built</div>
+          <div class="stat-label">Software Built</div>
         </div>
         <div class="stat">
           <div class="stat-num" data-target="6">0</div>
@@ -684,12 +684,13 @@
 
     function renderProjects(projects) {
       const container = document.getElementById('projects');
-      if (!projects.length) {
+      const software = projects.filter((p) => p.kind !== 'website');
+      if (!software.length) {
         container.innerHTML = '<p class="projects-error">No projects found.</p>';
         return;
       }
 
-      container.innerHTML = projects.map((p) => `
+      container.innerHTML = software.map((p) => `
         <article class="card" data-cat="${escapeHtml(p.category)}">
           <div class="card-tag">${escapeHtml(p.categoryLabel)}</div>
           <h3>${escapeHtml(p.title)}</h3>
@@ -700,7 +701,7 @@
       `).join('');
 
       const countEl = document.getElementById('projectCount');
-      if (countEl) countEl.dataset.target = String(projects.length);
+      if (countEl) countEl.dataset.target = String(software.length);
     }
 
     function applyFilter(filter) {
@@ -715,6 +716,13 @@
         const res = await fetch('./projects.json?v=' + Date.now());
         if (!res.ok) throw new Error('Failed to load projects');
         const data = await res.json();
+        const software = (data.projects || []).filter((p) => p.kind !== 'website');
+        const countEl = document.getElementById('projectCount');
+        if (countEl && data.softwareCount != null) {
+          countEl.dataset.target = String(data.softwareCount);
+        } else if (countEl) {
+          countEl.dataset.target = String(software.length);
+        }
         renderProjects(data.projects || []);
       } catch (err) {
         container.innerHTML = '<p class="projects-error">Could not load projects. Try again later.</p>';

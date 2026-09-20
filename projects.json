@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-09-20T18:57:48.432Z",
+  "generatedAt": "2026-09-20T18:58:04.053Z",
   "count": 27,
   "projects": [
-    {
-      "id": "gohostels-one-landlord-app",
-      "title": "GoHostels One — Landlord App",
-      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:57:48.432Z",
-      "private": true
-    },
     {
       "id": "gohostels-one-student-app",
       "title": "GoHostels One — Student App",
@@ -21,7 +10,18 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T18:57:48.430Z",
+      "updatedAt": "2026-09-20T18:58:04.053Z",
+      "private": true
+    },
+    {
+      "id": "gohostels-one-landlord-app",
+      "title": "GoHostels One — Landlord App",
+      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T18:58:04.053Z",
       "private": true
     },
     {

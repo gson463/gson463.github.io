@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-20T19:18:50.857Z",
+  "generatedAt": "2026-09-20T19:22:13.978Z",
   "count": 30,
   "softwareCount": 25,
   "projects": [
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T19:22:13.977Z",
+      "private": true
+    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -12,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:18:50.857Z",
+      "updatedAt": "2026-09-20T19:22:13.977Z",
       "private": true
     },
     {
@@ -23,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-20T19:18:50.857Z",
+      "updatedAt": "2026-09-20T19:22:13.977Z",
       "private": true
     },
     {
@@ -34,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-20T19:18:50.857Z",
+      "updatedAt": "2026-09-20T19:22:13.977Z",
       "private": true
     },
     {
@@ -45,19 +57,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-20T19:18:50.857Z",
-      "private": true
-    },
-    {
-      "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:18:50.856Z",
+      "updatedAt": "2026-09-20T19:22:13.977Z",
       "private": true
     },
     {

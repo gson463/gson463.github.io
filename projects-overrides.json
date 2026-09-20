@@ -18,7 +18,7 @@
     "pharmacy-pms": "Pharmacy PMS",
     "voguethics": "Vogu Ethics",
     "gosany-platform": "Gosany Platform (GOSEP)",
-    "gosany-gohostels": "GoHostels",
+    "gosany-gohostels": "GoHostels One (Web)",
     "go-makazi": "GoMakazi",
     "nyumba-cloud": "Nyumba Cloud",
     "compliance-portal": "Compliance Portal",
@@ -34,13 +34,47 @@
     "Simple-NetCon-DataApp": "security"
   },
   "descriptions": {
-    "gosany-platform": "Gosany enterprise platform — modular monolith for hospitality and enterprise products.",
-    "gosany-gohostels": "Hostel management system — landlord and student applications.",
+    "gosany-platform": "Gosany enterprise platform — modular monolith for hospitality and enterprise products (GOSEP).",
+    "gosany-gohostels": "GoHostels One web platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+    "go-makazi": "Tanzania property rental platform for tenants and landlords.",
     "plusnology": "Technology business website and platform.",
     "FaraghaIQ": "Security intelligence platform.",
     "con-kateti": "Web application platform.",
     "ibs-web-d": "Cloud accounting & ERP — chart of accounts, general ledger, sales & purchase invoicing, inventory, fixed assets & depreciation, bank reconciliation, VAT returns, multi-currency treasury, payroll, and financial statements with reporting packs.",
     "ibs-web": "IBS Accounts Next.js web application — accounting and business management.",
-    "ibs-accounts-website": "Marketing website for IBS Accounts cloud accounting software."
-  }
+    "ibs-accounts-website": "Marketing website for IBS Accounts cloud accounting software.",
+    "voguethics": "Cybersecurity and security awareness training from Tanzania."
+  },
+  "stacks": {
+    "gosany-gohostels": "React · Vite · Supabase · Capacitor",
+    "go-makazi": "React · Supabase · Vite",
+    "ibs-web-d": "React · Vite · Supabase · TypeScript"
+  },
+  "websites": {
+    "gosany-gohostels": "https://gosany.co.tz/gohostels",
+    "go-makazi": "https://gosany.co.tz/gomakazi",
+    "gosany-platform": "https://gosany.co.tz",
+    "voguethics": "https://voguethics.org",
+    "ibs-accounts-website": "https://ibsaccounts.com"
+  },
+  "extraProjects": [
+    {
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels"
+    },
+    {
+      "id": "gohostels-one-landlord-app",
+      "title": "GoHostels One — Landlord App",
+      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels"
+    }
+  ]
 }

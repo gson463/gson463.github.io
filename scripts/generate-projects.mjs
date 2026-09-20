@@ -77,24 +77,37 @@ function buildProjects(repos, overrides) {
         CATEGORY_RULES.find((r) => r.cat === category)?.label ||
         (category === 'other' ? 'Other' : detected.label)
 
+      const website = overrides.websites?.[repo.name] || null
+
       return {
         id: repo.name,
         title: overrides.titles?.[repo.name] || titleCase(repo.name),
         description: description || 'Software system designed and built as lead developer.',
         category,
         categoryLabel,
-        stack: detectStack(description, repo.primaryLanguage?.name),
+        stack: overrides.stacks?.[repo.name] || detectStack(description, repo.primaryLanguage?.name),
+        website,
         url: repo.url,
         updatedAt: repo.updatedAt,
         private: repo.isPrivate,
       }
     })
-    .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+}
+
+function mergeExtraProjects(projects, overrides) {
+  const extras = (overrides.extraProjects || []).map((p) => ({
+    ...p,
+    updatedAt: p.updatedAt || new Date().toISOString(),
+    private: p.private ?? true,
+  }))
+  return [...projects, ...extras].sort(
+    (a, b) => new Date(b.updatedAt) - new Date(a.updatedAt),
+  )
 }
 
 const overrides = loadOverrides()
 const repos = fetchRepos()
-const projects = buildProjects(repos, overrides)
+const projects = mergeExtraProjects(buildProjects(repos, overrides), overrides)
 
 const output = {
   generatedAt: new Date().toISOString(),

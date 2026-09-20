@@ -345,6 +345,16 @@
       color: var(--muted);
     }
 
+    .card-link {
+      display: inline-block;
+      margin-top: 0.65rem;
+      font-size: 0.82rem;
+      color: var(--accent-2);
+      text-decoration: none;
+    }
+
+    .card-link:hover { text-decoration: underline; }
+
     .contact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -676,6 +686,7 @@
           <h3>${escapeHtml(p.title)}</h3>
           <p>${escapeHtml(p.description)}</p>
           <div class="card-stack">${escapeHtml(p.stack)}</div>
+          ${p.website ? `<a class="card-link" href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(p.website.replace(/^https?:\/\//, ''))}</a>` : ''}
         </article>
       `).join('');
 

@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-20T18:51:57.199Z",
-  "count": 25,
+  "generatedAt": "2026-09-20T18:53:11.083Z",
+  "count": 27,
   "projects": [
+    {
+      "id": "gohostels-one-landlord-app",
+      "title": "GoHostels One — Landlord App",
+      "description": "Android & iOS mobile app for property owners — manage listings, tenants, payments, and hostel operations.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T18:53:11.083Z",
+      "private": true
+    },
+    {
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-20T18:53:11.080Z",
+      "private": true
+    },
     {
       "id": "Simple-NetCon-DataApp",
       "title": "Simple NetCon DataApp",
@@ -9,6 +31,7 @@
       "category": "security",
       "categoryLabel": "Security",
       "stack": "Java",
+      "website": null,
       "url": "https://github.com/gson463/Simple-NetCon-DataApp",
       "updatedAt": "2026-09-20T17:59:15Z",
       "private": true
@@ -20,6 +43,7 @@
       "category": "platform",
       "categoryLabel": "Platform",
       "stack": "PHP",
+      "website": null,
       "url": "https://github.com/gson463/taka-Point-Portal",
       "updatedAt": "2026-09-20T17:59:14Z",
       "private": true
@@ -31,6 +55,7 @@
       "category": "property",
       "categoryLabel": "Property",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/blb",
       "updatedAt": "2026-09-20T17:59:11Z",
       "private": true
@@ -42,6 +67,7 @@
       "category": "commerce",
       "categoryLabel": "E-commerce",
       "stack": "TypeScript · Next.js",
+      "website": null,
       "url": "https://github.com/gson463/sj",
       "updatedAt": "2026-09-20T17:59:10Z",
       "private": true
@@ -53,6 +79,7 @@
       "category": "platform",
       "categoryLabel": "Platform",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/plusnology",
       "updatedAt": "2026-09-20T17:59:08Z",
       "private": true
@@ -64,6 +91,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "CSS",
+      "website": null,
       "url": "https://github.com/gson463/Vilo",
       "updatedAt": "2026-09-20T17:59:06Z",
       "private": true
@@ -75,6 +103,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "TypeScript",
+      "website": null,
       "url": "https://github.com/gson463/ajiramiamoja",
       "updatedAt": "2026-09-20T17:59:04Z",
       "private": true
@@ -82,10 +111,11 @@
     {
       "id": "voguethics",
       "title": "Vogu Ethics",
-      "description": "VOGU ETHICS ORG — Coming soon. Full cybersecurity and awareness training from Tanzania.",
+      "description": "Cybersecurity and security awareness training from Tanzania.",
       "category": "security",
       "categoryLabel": "Security",
       "stack": "TypeScript",
+      "website": "https://voguethics.org",
       "url": "https://github.com/gson463/voguethics",
       "updatedAt": "2026-09-20T17:59:02Z",
       "private": true
@@ -97,6 +127,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/mukwano",
       "updatedAt": "2026-09-20T17:59:00Z",
       "private": true
@@ -108,6 +139,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "JavaScript · Supabase · Vite · React",
+      "website": null,
       "url": "https://github.com/gson463/fcl-microfinance",
       "updatedAt": "2026-09-20T17:58:59Z",
       "private": true
@@ -115,21 +147,23 @@
     {
       "id": "gosany-platform",
       "title": "Gosany Platform (GOSEP)",
-      "description": "Gosany enterprise platform — modular monolith for hospitality and enterprise products.",
+      "description": "Gosany enterprise platform — modular monolith for hospitality and enterprise products (GOSEP).",
       "category": "platform",
       "categoryLabel": "Platform",
-      "stack": "TypeScript",
+      "stack": "TypeScript · GoSEP",
+      "website": "https://gosany.co.tz",
       "url": "https://github.com/gson463/gosany-platform",
       "updatedAt": "2026-09-20T10:44:28Z",
       "private": true
     },
     {
       "id": "gosany-gohostels",
-      "title": "GoHostels",
-      "description": "Hostel management system — landlord and student applications.",
+      "title": "GoHostels One (Web)",
+      "description": "GoHostels One web platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
       "category": "platform",
       "categoryLabel": "Platform",
-      "stack": "JavaScript",
+      "stack": "React · Vite · Supabase · Capacitor",
+      "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
       "updatedAt": "2026-09-19T14:22:35Z",
       "private": true
@@ -141,6 +175,7 @@
       "category": "property",
       "categoryLabel": "Property",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/nyumba-cloud",
       "updatedAt": "2026-09-17T16:20:11Z",
       "private": true
@@ -152,6 +187,7 @@
       "category": "commerce",
       "categoryLabel": "E-commerce",
       "stack": "TypeScript · TanStack · Supabase · Vercel",
+      "website": null,
       "url": "https://github.com/gson463/sj-ecommerce",
       "updatedAt": "2026-09-17T15:14:12Z",
       "private": true
@@ -162,7 +198,8 @@
       "description": "Cloud accounting & ERP — chart of accounts, general ledger, sales & purchase invoicing, inventory, fixed assets & depreciation, bank reconciliation, VAT returns, multi-currency treasury, payroll, and financial statements with reporting packs.",
       "category": "finance",
       "categoryLabel": "Finance",
-      "stack": "TypeScript",
+      "stack": "React · Vite · Supabase · TypeScript",
+      "website": null,
       "url": "https://github.com/gson463/ibs-web-d",
       "updatedAt": "2026-09-01T15:25:16Z",
       "private": true
@@ -174,6 +211,7 @@
       "category": "commerce",
       "categoryLabel": "E-commerce",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/simu-jiji-system",
       "updatedAt": "2026-08-26T20:07:55Z",
       "private": true
@@ -181,10 +219,11 @@
     {
       "id": "go-makazi",
       "title": "GoMakazi",
-      "description": "GoMakazi — Tanzania property rental platform (Vite, React, Supabase)",
+      "description": "Tanzania property rental platform for tenants and landlords.",
       "category": "property",
       "categoryLabel": "Property",
-      "stack": "JavaScript · Supabase · Vite · React",
+      "stack": "React · Supabase · Vite",
+      "website": "https://gosany.co.tz/gomakazi",
       "url": "https://github.com/gson463/go-makazi",
       "updatedAt": "2026-08-24T17:34:11Z",
       "private": true
@@ -196,6 +235,7 @@
       "category": "platform",
       "categoryLabel": "Platform",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/compliance-portal",
       "updatedAt": "2026-08-18T12:23:22Z",
       "private": true
@@ -207,6 +247,7 @@
       "category": "security",
       "categoryLabel": "Security",
       "stack": "JavaScript",
+      "website": null,
       "url": "https://github.com/gson463/FaraghaIQ",
       "updatedAt": "2026-07-20T16:52:48Z",
       "private": true
@@ -218,6 +259,7 @@
       "category": "health",
       "categoryLabel": "Healthcare",
       "stack": "TypeScript",
+      "website": null,
       "url": "https://github.com/gson463/pharmacy-pms",
       "updatedAt": "2026-05-20T22:47:54Z",
       "private": true
@@ -229,6 +271,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "TypeScript · Next.js",
+      "website": null,
       "url": "https://github.com/gson463/ibs-web",
       "updatedAt": "2026-05-18T12:46:58Z",
       "private": true
@@ -240,6 +283,7 @@
       "category": "commerce",
       "categoryLabel": "E-commerce",
       "stack": "JavaScript · PocketBase",
+      "website": null,
       "url": "https://github.com/gson463/simu-jiji",
       "updatedAt": "2026-05-13T06:14:20Z",
       "private": true
@@ -251,6 +295,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "TypeScript",
+      "website": "https://ibsaccounts.com",
       "url": "https://github.com/gson463/ibs-accounts-website",
       "updatedAt": "2026-04-28T17:11:16Z",
       "private": true
@@ -262,6 +307,7 @@
       "category": "finance",
       "categoryLabel": "Finance",
       "stack": "JavaScript · Vite · React",
+      "website": null,
       "url": "https://github.com/gson463/mukwano-loans",
       "updatedAt": "2026-04-06T14:26:50Z",
       "private": true
@@ -273,6 +319,7 @@
       "category": "other",
       "categoryLabel": "Other",
       "stack": "PHP",
+      "website": null,
       "url": "https://github.com/gson463/con-kateti",
       "updatedAt": "2025-07-04T10:17:37Z",
       "private": true

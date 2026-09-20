@@ -302,6 +302,16 @@
       display: none;
     }
 
+    .projects-loading,
+    .projects-error {
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      grid-column: 1 / -1;
+    }
+
+    .projects-error { color: var(--accent); }
+
     .card:hover {
       border-color: var(--accent);
       transform: translateY(-4px);
@@ -446,7 +456,7 @@
           <div class="stat-label">GitHub Contributions</div>
         </div>
         <div class="stat">
-          <div class="stat-num" data-target="33">0</div>
+          <div class="stat-num" id="projectCount" data-target="0">0</div>
           <div class="stat-label">Projects Built</div>
         </div>
         <div class="stat">
@@ -500,105 +510,11 @@
         <button class="filter-btn" data-filter="platform">Platform</button>
         <button class="filter-btn" data-filter="security">Security</button>
         <button class="filter-btn" data-filter="community">Community</button>
+        <button class="filter-btn" data-filter="other">Other</button>
       </div>
 
       <div class="projects" id="projects">
-        <article class="card" data-cat="commerce">
-          <div class="card-tag">E-commerce</div>
-          <h3>Simu Jiji E-commerce</h3>
-          <p>Full-stack e-commerce platform — designed and built end-to-end.</p>
-          <div class="card-stack">TanStack Start · Supabase · Vercel</div>
-        </article>
-        <article class="card" data-cat="commerce">
-          <div class="card-tag">E-commerce</div>
-          <h3>Simu Jiji Portal & PWA</h3>
-          <p>Business management, POS, inventory, and progressive web app.</p>
-          <div class="card-stack">React · Supabase · Vite · PWA</div>
-        </article>
-        <article class="card" data-cat="property">
-          <div class="card-tag">Property</div>
-          <h3>BLB Digital Manager</h3>
-          <p>Property, units, tenants, leases, invoices, and payments.</p>
-          <div class="card-stack">React · Vite · PocketBase</div>
-        </article>
-        <article class="card" data-cat="property">
-          <div class="card-tag">Property</div>
-          <h3>Nyumba Cloud</h3>
-          <p>Property and tenancy management application.</p>
-          <div class="card-stack">React · Supabase · Vite</div>
-        </article>
-        <article class="card" data-cat="property">
-          <div class="card-tag">Property</div>
-          <h3>GoMakazi</h3>
-          <p>Tanzania rental platform for tenants and landlords.</p>
-          <div class="card-stack">React · Supabase · Vite</div>
-        </article>
-        <article class="card" data-cat="property">
-          <div class="card-tag">Property</div>
-          <h3>Tanzania Plots Portal</h3>
-          <p>Land and plot management system.</p>
-          <div class="card-stack">PHP · MySQL</div>
-        </article>
-        <article class="card" data-cat="finance">
-          <div class="card-tag">Finance</div>
-          <h3>FCL (Fahari Credits Limited)</h3>
-          <p>Microfinance management — loans, savings, and reports.</p>
-          <div class="card-stack">React · Supabase · Vite</div>
-        </article>
-        <article class="card" data-cat="finance">
-          <div class="card-tag">Finance</div>
-          <h3>Mukwano Microfinance</h3>
-          <p>Loan operations and daily microfinance workflows.</p>
-          <div class="card-stack">React · Supabase · Vite</div>
-        </article>
-        <article class="card" data-cat="finance">
-          <div class="card-tag">Finance</div>
-          <h3>IBS Accounts</h3>
-          <p>Accounting SPA and marketing website.</p>
-          <div class="card-stack">Next.js · Supabase · TypeScript</div>
-        </article>
-        <article class="card" data-cat="health">
-          <div class="card-tag">Healthcare</div>
-          <h3>Pharmacy PMS</h3>
-          <p>Pharmacy management — products, sales, expenses, reports.</p>
-          <div class="card-stack">Next.js · Prisma · TypeScript</div>
-        </article>
-        <article class="card" data-cat="platform">
-          <div class="card-tag">Platform</div>
-          <h3>Gosany Platform (GOSEP)</h3>
-          <p>Enterprise modular monolith for hospitality products.</p>
-          <div class="card-stack">TypeScript · pnpm · GoSEP SDK</div>
-        </article>
-        <article class="card" data-cat="platform">
-          <div class="card-tag">Platform</div>
-          <h3>GoHostels</h3>
-          <p>Hostel management for landlords and students.</p>
-          <div class="card-stack">React · Supabase · Vite</div>
-        </article>
-        <article class="card" data-cat="platform">
-          <div class="card-tag">Platform</div>
-          <h3>Compliance Portal</h3>
-          <p>Subscriptions, licenses, and vehicle service tracking.</p>
-          <div class="card-stack">React · Vite · Supabase</div>
-        </article>
-        <article class="card" data-cat="security">
-          <div class="card-tag">Security</div>
-          <h3>Vogu Ethics</h3>
-          <p>Cybersecurity training and awareness from Tanzania.</p>
-          <div class="card-stack">Next.js · TypeScript</div>
-        </article>
-        <article class="card" data-cat="community">
-          <div class="card-tag">Community</div>
-          <h3>Muhazini Portal</h3>
-          <p>Desktop church finance management with approval workflows.</p>
-          <div class="card-stack">Electron · React · SQLite</div>
-        </article>
-        <article class="card" data-cat="community">
-          <div class="card-tag">Community</div>
-          <h3>VugaChat</h3>
-          <p>Tanzania–China business chat with auto-translation.</p>
-          <div class="card-stack">Expo · React Native · Supabase</div>
-        </article>
+        <p class="projects-loading">Loading projects…</p>
       </div>
     </section>
 
@@ -741,15 +657,59 @@
     const statsEl = document.querySelector('.stats');
     if (statsEl) statsObs.observe(statsEl);
 
+    function escapeHtml(text) {
+      const d = document.createElement('div');
+      d.textContent = text;
+      return d.innerHTML;
+    }
+
+    function renderProjects(projects) {
+      const container = document.getElementById('projects');
+      if (!projects.length) {
+        container.innerHTML = '<p class="projects-error">No projects found.</p>';
+        return;
+      }
+
+      container.innerHTML = projects.map((p) => `
+        <article class="card" data-cat="${escapeHtml(p.category)}">
+          <div class="card-tag">${escapeHtml(p.categoryLabel)}</div>
+          <h3>${escapeHtml(p.title)}</h3>
+          <p>${escapeHtml(p.description)}</p>
+          <div class="card-stack">${escapeHtml(p.stack)}</div>
+        </article>
+      `).join('');
+
+      const countEl = document.getElementById('projectCount');
+      if (countEl) countEl.dataset.target = String(projects.length);
+    }
+
+    function applyFilter(filter) {
+      document.querySelectorAll('.card').forEach((card) => {
+        card.classList.toggle('hidden', filter !== 'all' && card.dataset.cat !== filter);
+      });
+    }
+
+    async function loadProjects() {
+      const container = document.getElementById('projects');
+      try {
+        const res = await fetch('./projects.json?v=' + Date.now());
+        if (!res.ok) throw new Error('Failed to load projects');
+        const data = await res.json();
+        renderProjects(data.projects || []);
+      } catch (err) {
+        container.innerHTML = '<p class="projects-error">Could not load projects. Try again later.</p>';
+        console.error(err);
+      }
+    }
+
+    loadProjects();
+
     document.getElementById('filters').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
       if (!btn) return;
       document.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
-      const filter = btn.dataset.filter;
-      document.querySelectorAll('.card').forEach((card) => {
-        card.classList.toggle('hidden', filter !== 'all' && card.dataset.cat !== filter);
-      });
+      applyFilter(btn.dataset.filter);
     });
 
     document.getElementById('menuBtn').addEventListener('click', () => {

@@ -1,0 +1,41 @@
+name: Sync projects
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - projects-overrides.json
+      - scripts/generate-projects.mjs
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate projects.json
+        run: node scripts/generate-projects.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated projects
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects.json
+          if git diff --staged --quiet; then
+            echo "No changes to projects.json"
+          else
+            git commit -m "Auto-sync projects from GitHub repos"
+            git push
+          fi

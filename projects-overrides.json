@@ -1,0 +1,43 @@
+{
+  "exclude": [
+    "cvGenerator",
+    "PHP-SIMPLE-CRUD-Application-with-OOP",
+    "MurariKrishnanBTS",
+    "Murari_Admin_App",
+    "Pharma-Project",
+    "rita",
+    "MalwareAnalysisTool"
+  ],
+  "titles": {
+    "fcl-microfinance": "FCL (Fahari Credits Limited)",
+    "sj-ecommerce": "Simu Jiji E-commerce",
+    "simu-jiji-system": "Simu Jiji Portal",
+    "simu-jiji": "Simu Jiji Monorepo",
+    "sj": "Simu Jiji Storefront",
+    "blb": "BLB (BELIBELI Digital Manager)",
+    "pharmacy-pms": "Pharmacy PMS",
+    "voguethics": "Vogu Ethics",
+    "gosany-platform": "Gosany Platform (GOSEP)",
+    "gosany-gohostels": "GoHostels",
+    "go-makazi": "GoMakazi",
+    "nyumba-cloud": "Nyumba Cloud",
+    "compliance-portal": "Compliance Portal",
+    "ibs-web-d": "IBS Accounts Web D",
+    "ibs-web": "IBS Accounts Web App",
+    "ibs-accounts-website": "IBS Accounts Website",
+    "mukwano-loans": "Mukwano Loans",
+    "ajiramiamoja": "Ajira Moja Mia Moja",
+    "Vilo": "Vijana Life Organization (Vilo)",
+    "taka-Point-Portal": "Taka Point Portal"
+  },
+  "categories": {
+    "Simple-NetCon-DataApp": "security"
+  },
+  "descriptions": {
+    "gosany-platform": "Gosany enterprise platform — modular monolith for hospitality and enterprise products.",
+    "gosany-gohostels": "Hostel management system — landlord and student applications.",
+    "plusnology": "Technology business website and platform.",
+    "FaraghaIQ": "Security intelligence platform.",
+    "con-kateti": "Web application platform."
+  }
+}

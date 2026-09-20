@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-09-20T18:50:15.015Z",
+  "count": 25,
+  "projects": [
+    {
+      "id": "Simple-NetCon-DataApp",
+      "title": "Simple NetCon DataApp",
+      "description": "This is a simple Network Condition Data Collection Android App, that collect some of the data as shown in the windows forms below. The app store data in SQLite DB. It validate the user before  taking any action to the forms.",
+      "category": "security",
+      "categoryLabel": "Security",
+      "stack": "Java",
+      "url": "https://github.com/gson463/Simple-NetCon-DataApp",
+      "updatedAt": "2026-09-20T17:59:15Z",
+      "private": true
+    },
+    {
+      "id": "taka-Point-Portal",
+      "title": "Taka Point Portal",
+      "description": "A garbage payment collections data portal for Tanzania (serikali za mitaa).",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "PHP",
+      "url": "https://github.com/gson463/taka-Point-Portal",
+      "updatedAt": "2026-09-20T17:59:14Z",
+      "private": true
+    },
+    {
+      "id": "blb",
+      "title": "BLB (BELIBELI Digital Manager)",
+      "description": "BELIBELI Digital Manager - monorepo",
+      "category": "property",
+      "categoryLabel": "Property",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/blb",
+      "updatedAt": "2026-09-20T17:59:11Z",
+      "private": true
+    },
+    {
+      "id": "sj",
+      "title": "Simu Jiji Storefront",
+      "description": "Simu Jiji - Next.js storefront",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "stack": "TypeScript · Next.js",
+      "url": "https://github.com/gson463/sj",
+      "updatedAt": "2026-09-20T17:59:10Z",
+      "private": true
+    },
+    {
+      "id": "plusnology",
+      "title": "Plusnology",
+      "description": "Technology business website and platform.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/plusnology",
+      "updatedAt": "2026-09-20T17:59:08Z",
+      "private": true
+    },
+    {
+      "id": "Vilo",
+      "title": "Vijana Life Organization (Vilo)",
+      "description": "Vijana Life Organization — Coming Soon",
+      "category": "community",
+      "categoryLabel": "Community",
+      "stack": "CSS",
+      "url": "https://github.com/gson463/Vilo",
+      "updatedAt": "2026-09-20T17:59:06Z",
+      "private": true
+    },
+    {
+      "id": "ajiramiamoja",
+      "title": "Ajira Moja Mia Moja",
+      "description": "Ajira Moja Mia Moja — website",
+      "category": "community",
+      "categoryLabel": "Community",
+      "stack": "TypeScript",
+      "url": "https://github.com/gson463/ajiramiamoja",
+      "updatedAt": "2026-09-20T17:59:04Z",
+      "private": true
+    },
+    {
+      "id": "voguethics",
+      "title": "Vogu Ethics",
+      "description": "VOGU ETHICS ORG — Coming soon. Full cybersecurity and awareness training from Tanzania.",
+      "category": "security",
+      "categoryLabel": "Security",
+      "stack": "TypeScript",
+      "url": "https://github.com/gson463/voguethics",
+      "updatedAt": "2026-09-20T17:59:02Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano",
+      "description": "Mukwano microfinance management",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-09-20T17:59:00Z",
+      "private": true
+    },
+    {
+      "id": "fcl-microfinance",
+      "title": "FCL (Fahari Credits Limited)",
+      "description": "Microfinance management — Vite, Supabase, React",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "JavaScript · Supabase · Vite · React",
+      "url": "https://github.com/gson463/fcl-microfinance",
+      "updatedAt": "2026-09-20T17:58:59Z",
+      "private": true
+    },
+    {
+      "id": "gosany-platform",
+      "title": "Gosany Platform (GOSEP)",
+      "description": "Gosany enterprise platform — modular monolith for hospitality and enterprise products.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "TypeScript",
+      "url": "https://github.com/gson463/gosany-platform",
+      "updatedAt": "2026-09-20T10:44:28Z",
+      "private": true
+    },
+    {
+      "id": "gosany-gohostels",
+      "title": "GoHostels",
+      "description": "Hostel management system — landlord and student applications.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-19T14:22:35Z",
+      "private": true
+    },
+    {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Nyumba Cloud — property / tenancy app (forked from BLB for separate development).",
+      "category": "property",
+      "categoryLabel": "Property",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-09-17T16:20:11Z",
+      "private": true
+    },
+    {
+      "id": "sj-ecommerce",
+      "title": "Simu Jiji E-commerce",
+      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "stack": "TypeScript · TanStack · Supabase · Vercel",
+      "url": "https://github.com/gson463/sj-ecommerce",
+      "updatedAt": "2026-09-17T15:14:12Z",
+      "private": true
+    },
+    {
+      "id": "ibs-web-d",
+      "title": "IBS Accounts Web D",
+      "description": "IBS Accounts — Web D standalone Supabase SPA (Vite + React)",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "TypeScript · Supabase · Vite · React",
+      "url": "https://github.com/gson463/ibs-web-d",
+      "updatedAt": "2026-09-01T15:25:16Z",
+      "private": true
+    },
+    {
+      "id": "simu-jiji-system",
+      "title": "Simu Jiji Portal",
+      "description": "Simu Jiji - phone business management",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/simu-jiji-system",
+      "updatedAt": "2026-08-26T20:07:55Z",
+      "private": true
+    },
+    {
+      "id": "go-makazi",
+      "title": "GoMakazi",
+      "description": "GoMakazi — Tanzania property rental platform (Vite, React, Supabase)",
+      "category": "property",
+      "categoryLabel": "Property",
+      "stack": "JavaScript · Supabase · Vite · React",
+      "url": "https://github.com/gson463/go-makazi",
+      "updatedAt": "2026-08-24T17:34:11Z",
+      "private": true
+    },
+    {
+      "id": "compliance-portal",
+      "title": "Compliance Portal",
+      "description": "Compliance Portal — subscriptions, licenses, and vehicle oil/tyre services",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/compliance-portal",
+      "updatedAt": "2026-08-18T12:23:22Z",
+      "private": true
+    },
+    {
+      "id": "FaraghaIQ",
+      "title": "FaraghaIQ",
+      "description": "Security intelligence platform.",
+      "category": "security",
+      "categoryLabel": "Security",
+      "stack": "JavaScript",
+      "url": "https://github.com/gson463/FaraghaIQ",
+      "updatedAt": "2026-07-20T16:52:48Z",
+      "private": true
+    },
+    {
+      "id": "pharmacy-pms",
+      "title": "Pharmacy PMS",
+      "description": "Software system designed and built as lead developer.",
+      "category": "health",
+      "categoryLabel": "Healthcare",
+      "stack": "TypeScript",
+      "url": "https://github.com/gson463/pharmacy-pms",
+      "updatedAt": "2026-05-20T22:47:54Z",
+      "private": true
+    },
+    {
+      "id": "ibs-web",
+      "title": "IBS Accounts Web App",
+      "description": "IBS Accounts - Next.js web app",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "TypeScript · Next.js",
+      "url": "https://github.com/gson463/ibs-web",
+      "updatedAt": "2026-05-18T12:46:58Z",
+      "private": true
+    },
+    {
+      "id": "simu-jiji",
+      "title": "Simu Jiji Monorepo",
+      "description": "Simu Jiji — monorepo (web, API, PocketBase)",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "stack": "JavaScript · PocketBase",
+      "url": "https://github.com/gson463/simu-jiji",
+      "updatedAt": "2026-05-13T06:14:20Z",
+      "private": true
+    },
+    {
+      "id": "ibs-accounts-website",
+      "title": "IBS Accounts Website",
+      "description": "IBS Accounts marketing site (Next.js)",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "TypeScript · Next.js",
+      "url": "https://github.com/gson463/ibs-accounts-website",
+      "updatedAt": "2026-04-28T17:11:16Z",
+      "private": true
+    },
+    {
+      "id": "mukwano-loans",
+      "title": "Mukwano Loans",
+      "description": "Mukwano Loans microfinance management (Vite/React)",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "stack": "JavaScript · Vite · React",
+      "url": "https://github.com/gson463/mukwano-loans",
+      "updatedAt": "2026-04-06T14:26:50Z",
+      "private": true
+    },
+    {
+      "id": "con-kateti",
+      "title": "Con Kateti",
+      "description": "Web application platform.",
+      "category": "other",
+      "categoryLabel": "Other",
+      "stack": "PHP",
+      "url": "https://github.com/gson463/con-kateti",
+      "updatedAt": "2025-07-04T10:17:37Z",
+      "private": true
+    }
+  ]
+}

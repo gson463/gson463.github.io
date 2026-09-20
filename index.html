@@ -654,27 +654,33 @@
     );
     document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 
-    function animateCounters() {
-      document.querySelectorAll('.stat-num').forEach((el) => {
-        const target = +el.dataset.target;
-        let current = 0;
-        const step = Math.ceil(target / 60);
-        const timer = setInterval(() => {
-          current += step;
-          if (current >= target) { current = target; clearInterval(timer); }
-          el.textContent = current.toLocaleString() + (target >= 100 ? '+' : '');
-        }, 20);
-      });
+    function animateCounter(el) {
+      if (!el) return;
+      const target = +el.dataset.target;
+      let current = 0;
+      const step = Math.max(1, Math.ceil(target / 60));
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = current.toLocaleString() + (target >= 100 ? '+' : '');
+      }, 20);
     }
 
-    const statsObs = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        animateCounters();
-        statsObs.disconnect();
-      }
-    }, { threshold: 0.5 });
-    const statsEl = document.querySelector('.stats');
-    if (statsEl) statsObs.observe(statsEl);
+    function animateCounters() {
+      document.querySelectorAll('.stat-num').forEach(animateCounter);
+    }
+
+    function observeStats() {
+      const statsEl = document.querySelector('.stats');
+      if (!statsEl) return;
+      const statsObs = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          animateCounters();
+          statsObs.disconnect();
+        }
+      }, { threshold: 0.5 });
+      statsObs.observe(statsEl);
+    }
 
     function escapeHtml(text) {
       const d = document.createElement('div');
@@ -730,7 +736,7 @@
       }
     }
 
-    loadProjects();
+    loadProjects().then(observeStats);
 
     document.getElementById('filters').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');

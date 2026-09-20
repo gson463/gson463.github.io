@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Security Flaws — CEH Certified Cyber Security Expert & Full-Stack Developer from Tanzania." />
+  <title>Security Flaws | Developer & Cyber Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0e14;
+      --surface: #121820;
+      --surface-2: #1a2230;
+      --border: #2a3544;
+      --text: #e6edf3;
+      --muted: #8b9cb3;
+      --accent: #e94560;
+      --accent-2: #008751;
+      --glow: rgba(233, 69, 96, 0.35);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    #canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      opacity: 0.45;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+      background: rgba(10, 14, 20, 0.75);
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+    }
+
+    .logo span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    .menu-btn {
+      display: none;
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.4rem 0.7rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .hero {
+      padding: 5rem 0 4rem;
+      text-align: center;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+    }
+
+    .badge.accent {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 3.5rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 0.75rem;
+    }
+
+    .typing {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--muted);
+      min-height: 1.8em;
+      margin-bottom: 2rem;
+    }
+
+    .typing .cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1.1em;
+      background: var(--accent);
+      margin-left: 2px;
+      vertical-align: text-bottom;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 8px 24px var(--glow);
+    }
+
+    .btn-primary:hover { box-shadow: 0 12px 32px var(--glow); }
+
+    .btn-ghost {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 3.5rem 0;
+    }
+
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .stat:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+
+    section { padding: 3rem 0; }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section-sub {
+      color: var(--muted);
+      margin-bottom: 2rem;
+      max-width: 560px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .skill {
+      padding: 0.5rem 1rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      cursor: default;
+    }
+
+    .skill:hover {
+      border-color: var(--accent-2);
+      color: var(--accent-2);
+      transform: scale(1.05);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0.45rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      transition: all 0.25s;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .card.hidden {
+      display: none;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-2);
+      margin-bottom: 0.5rem;
+    }
+
+    .card-tag.client { color: #f0ad4e; }
+
+    .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .card-stack {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .contact-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      padding: 1.25rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+
+    .contact-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .contact-card .label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .contact-card .value {
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: var(--surface);
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid var(--border);
+      }
+      .menu-btn { display: block; }
+      .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <nav>
+    <div class="wrap">
+      <div class="logo">Security<span>Flaws</span></div>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/gson463" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge-row">
+        <span class="badge accent">CEH Certified</span>
+        <span class="badge">Tanzania</span>
+        <span class="badge">Vogu Ethics Organization</span>
+      </div>
+      <h1>Security Flaws</h1>
+      <p class="typing"><span id="typed"></span><span class="cursor"></span></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work">View My Work</a>
+        <a class="btn btn-ghost" href="https://voguethics.org" target="_blank" rel="noopener">Vogu Ethics</a>
+        <a class="btn btn-ghost" href="https://github.com/gson463" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat">
+          <div class="stat-num" data-target="977">0</div>
+          <div class="stat-label">GitHub Contributions</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="33">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="6">0</div>
+          <div class="stat-label">Years on GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="reveal">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">
+        TZ-Cyber Security Expert | CEH Certified | Software Developer | Android Developer | ICT Consultant.
+        I build secure, production-ready web and mobile systems for businesses across Tanzania — from e-commerce
+        and microfinance to property management and cybersecurity training.
+      </p>
+    </section>
+
+    <section id="skills" class="reveal">
+      <h2 class="section-title">Tech Stack</h2>
+      <p class="section-sub">Technologies I use to ship real products.</p>
+      <div class="skills">
+        <span class="skill">TypeScript</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Next.js</span>
+        <span class="skill">TanStack</span>
+        <span class="skill">Vite</span>
+        <span class="skill">Supabase</span>
+        <span class="skill">PostgreSQL</span>
+        <span class="skill">PocketBase</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Expo</span>
+        <span class="skill">Android</span>
+        <span class="skill">PHP</span>
+        <span class="skill">Electron</span>
+        <span class="skill">Vercel</span>
+      </div>
+    </section>
+
+    <section id="work" class="reveal">
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-sub">Systems I've designed and built — including client engagements where I served as lead developer.</p>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="commerce">E-commerce</button>
+        <button class="filter-btn" data-filter="property">Property</button>
+        <button class="filter-btn" data-filter="finance">Finance</button>
+        <button class="filter-btn" data-filter="health">Healthcare</button>
+        <button class="filter-btn" data-filter="platform">Platform</button>
+        <button class="filter-btn" data-filter="security">Security</button>
+        <button class="filter-btn" data-filter="community">Community</button>
+      </div>
+
+      <div class="projects" id="projects">
+        <article class="card" data-cat="commerce">
+          <div class="card-tag client">Client project</div>
+          <h3>Simu Jiji E-commerce</h3>
+          <p>Full-stack e-commerce platform — lead developer.</p>
+          <div class="card-stack">TanStack Start · Supabase · Vercel</div>
+        </article>
+        <article class="card" data-cat="commerce">
+          <div class="card-tag client">Client project</div>
+          <h3>Simu Jiji Portal & PWA</h3>
+          <p>Business management, POS, inventory, and progressive web app.</p>
+          <div class="card-stack">React · Supabase · Vite · PWA</div>
+        </article>
+        <article class="card" data-cat="property">
+          <div class="card-tag">Property</div>
+          <h3>BLB Digital Manager</h3>
+          <p>Property, units, tenants, leases, invoices, and payments.</p>
+          <div class="card-stack">React · Vite · PocketBase</div>
+        </article>
+        <article class="card" data-cat="property">
+          <div class="card-tag">Property</div>
+          <h3>Nyumba Cloud</h3>
+          <p>Property and tenancy management application.</p>
+          <div class="card-stack">React · Supabase · Vite</div>
+        </article>
+        <article class="card" data-cat="property">
+          <div class="card-tag">Property</div>
+          <h3>GoMakazi</h3>
+          <p>Tanzania rental platform for tenants and landlords.</p>
+          <div class="card-stack">React · Supabase · Vite</div>
+        </article>
+        <article class="card" data-cat="property">
+          <div class="card-tag">Property</div>
+          <h3>Tanzania Plots Portal</h3>
+          <p>Land and plot management system.</p>
+          <div class="card-stack">PHP · MySQL</div>
+        </article>
+        <article class="card" data-cat="finance">
+          <div class="card-tag">Finance</div>
+          <h3>FCL Microfinance</h3>
+          <p>Microfinance management — loans, savings, and reports.</p>
+          <div class="card-stack">React · Supabase · Vite</div>
+        </article>
+        <article class="card" data-cat="finance">
+          <div class="card-tag">Finance</div>
+          <h3>Mukwano Microfinance</h3>
+          <p>Loan operations and daily microfinance workflows.</p>
+          <div class="card-stack">React · Supabase · Vite</div>
+        </article>
+        <article class="card" data-cat="finance">
+          <div class="card-tag">Finance</div>
+          <h3>IBS Accounts</h3>
+          <p>Accounting SPA and marketing website.</p>
+          <div class="card-stack">Next.js · Supabase · TypeScript</div>
+        </article>
+        <article class="card" data-cat="health">
+          <div class="card-tag">Healthcare</div>
+          <h3>Pharmacy PMS</h3>
+          <p>Pharmacy management — products, sales, expenses, reports.</p>
+          <div class="card-stack">Next.js · Prisma · TypeScript</div>
+        </article>
+        <article class="card" data-cat="platform">
+          <div class="card-tag">Platform</div>
+          <h3>Gosany Platform (GOSEP)</h3>
+          <p>Enterprise modular monolith for hospitality products.</p>
+          <div class="card-stack">TypeScript · pnpm · GoSEP SDK</div>
+        </article>
+        <article class="card" data-cat="platform">
+          <div class="card-tag">Platform</div>
+          <h3>GoHostels</h3>
+          <p>Hostel management for landlords and students.</p>
+          <div class="card-stack">React · Supabase · Vite</div>
+        </article>
+        <article class="card" data-cat="platform">
+          <div class="card-tag">Platform</div>
+          <h3>Compliance Portal</h3>
+          <p>Subscriptions, licenses, and vehicle service tracking.</p>
+          <div class="card-stack">React · Vite · Supabase</div>
+        </article>
+        <article class="card" data-cat="security">
+          <div class="card-tag">Security</div>
+          <h3>Vogu Ethics</h3>
+          <p>Cybersecurity training and awareness from Tanzania.</p>
+          <div class="card-stack">Next.js · TypeScript</div>
+        </article>
+        <article class="card" data-cat="community">
+          <div class="card-tag">Community</div>
+          <h3>Muhazini Portal</h3>
+          <p>Desktop church finance management with approval workflows.</p>
+          <div class="card-stack">Electron · React · SQLite</div>
+        </article>
+        <article class="card" data-cat="community">
+          <div class="card-tag">Community</div>
+          <h3>VugaChat</h3>
+          <p>Tanzania–China business chat with auto-translation.</p>
+          <div class="card-stack">Expo · React Native · Supabase</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2 class="section-title">Connect</h2>
+      <p class="section-sub">Let's talk security, software, or your next project.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="https://voguethics.org" target="_blank" rel="noopener">
+          <span class="label">Organization</span>
+          <span class="value">voguethics.org</span>
+        </a>
+        <a class="contact-card" href="https://github.com/gson463" target="_blank" rel="noopener">
+          <span class="label">GitHub</span>
+          <span class="value">@gson463</span>
+        </a>
+        <a class="contact-card" href="https://twitter.com/voguethicsorg" target="_blank" rel="noopener">
+          <span class="label">X / Twitter</span>
+          <span class="value">@voguethicsorg</span>
+        </a>
+        <a class="contact-card" href="https://github.com/gson463" target="_blank" rel="noopener">
+          <span class="label">Location</span>
+          <span class="value">Tanzania</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>977+ contributions · Building from Tanzania</p>
+      <p style="margin-top:0.5rem">Security Flaws · @gson463 · Vogu Ethics Organization</p>
+    </footer>
+  </main>
+
+  <script>
+    const phrases = [
+      'Cyber Security Expert',
+      'Full-Stack Developer',
+      'Android Developer',
+      'ICT Consultant',
+      'CEH Certified Professional',
+    ];
+    let pi = 0, ci = 0, deleting = false;
+    const typed = document.getElementById('typed');
+
+    function typeLoop() {
+      const current = phrases[pi];
+      if (!deleting) {
+        typed.textContent = current.slice(0, ++ci);
+        if (ci === current.length) {
+          deleting = true;
+          setTimeout(typeLoop, 1800);
+          return;
+        }
+      } else {
+        typed.textContent = current.slice(0, --ci);
+        if (ci === 0) {
+          deleting = false;
+          pi = (pi + 1) % phrases.length;
+        }
+      }
+      setTimeout(typeLoop, deleting ? 40 : 80);
+    }
+    typeLoop();
+
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    function initParticles() {
+      particles = Array.from({ length: 60 }, () => ({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4,
+        r: Math.random() * 2 + 0.5,
+      }));
+    }
+
+    function drawParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p, i) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(233, 69, 96, 0.5)';
+        ctx.fill();
+        for (let j = i + 1; j < particles.length; j++) {
+          const q = particles[j];
+          const dist = Math.hypot(p.x - q.x, p.y - q.y);
+          if (dist < 120) {
+            ctx.strokeStyle = `rgba(233, 69, 96, ${0.15 * (1 - dist / 120)})`;
+            ctx.lineWidth = 0.5;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(q.x, q.y);
+            ctx.stroke();
+          }
+        }
+      });
+      requestAnimationFrame(drawParticles);
+    }
+
+    resizeCanvas();
+    initParticles();
+    drawParticles();
+    window.addEventListener('resize', () => { resizeCanvas(); initParticles(); });
+
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    function animateCounters() {
+      document.querySelectorAll('.stat-num').forEach((el) => {
+        const target = +el.dataset.target;
+        let current = 0;
+        const step = Math.ceil(target / 60);
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) { current = target; clearInterval(timer); }
+          el.textContent = current.toLocaleString() + (target >= 100 ? '+' : '');
+        }, 20);
+      });
+    }
+
+    const statsObs = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        animateCounters();
+        statsObs.disconnect();
+      }
+    }, { threshold: 0.5 });
+    const statsEl = document.querySelector('.stats');
+    if (statsEl) statsObs.observe(statsEl);
+
+    document.getElementById('filters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      document.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.card').forEach((card) => {
+        card.classList.toggle('hidden', filter !== 'all' && card.dataset.cat !== filter);
+      });
+    });
+
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-links a[href^="#"]').forEach((a) => {
+      a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+    });
+  </script>
+</body>
+</html>

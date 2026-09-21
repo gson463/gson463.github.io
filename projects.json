@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:24:19.503Z",
+  "generatedAt": "2026-09-21T11:36:20.572Z",
   "count": 30,
   "softwareCount": 25,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "updatedAt": "2026-09-21T11:36:20.572Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "updatedAt": "2026-09-21T11:36:20.572Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "updatedAt": "2026-09-21T11:36:20.572Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "updatedAt": "2026-09-21T11:36:20.572Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-20T19:24:19.503Z",
+      "updatedAt": "2026-09-21T11:36:20.572Z",
+      "private": true
+    },
+    {
+      "id": "voguethics",
+      "title": "Vogu Ethics",
+      "description": "Cybersecurity and security awareness training from Tanzania.",
+      "category": "security",
+      "categoryLabel": "Security",
+      "kind": "website",
+      "stack": "TypeScript",
+      "website": "https://voguethics.org",
+      "url": "https://github.com/gson463/voguethics",
+      "updatedAt": "2026-09-20T19:35:19Z",
       "private": true
     },
     {
@@ -175,19 +188,6 @@
       "website": null,
       "url": "https://github.com/gson463/ajiramiamoja",
       "updatedAt": "2026-09-20T17:59:04Z",
-      "private": true
-    },
-    {
-      "id": "voguethics",
-      "title": "Vogu Ethics",
-      "description": "Cybersecurity and security awareness training from Tanzania.",
-      "category": "security",
-      "categoryLabel": "Security",
-      "kind": "website",
-      "stack": "TypeScript",
-      "website": "https://voguethics.org",
-      "url": "https://github.com/gson463/voguethics",
-      "updatedAt": "2026-09-20T17:59:02Z",
       "private": true
     },
     {

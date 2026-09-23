@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:41:42.435Z",
+  "generatedAt": "2026-09-23T10:33:15.261Z",
   "count": 32,
   "softwareCount": 27,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-22T10:41:42.435Z",
+      "updatedAt": "2026-09-23T10:33:15.261Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-22T10:41:42.435Z",
+      "updatedAt": "2026-09-23T10:33:15.261Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-22T10:41:42.435Z",
+      "updatedAt": "2026-09-23T10:33:15.261Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-22T10:41:42.435Z",
+      "updatedAt": "2026-09-23T10:33:15.261Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-22T10:41:42.435Z",
+      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano Financial Services",
+      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "React · Vite · Supabase",
+      "website": null,
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-09-23T08:20:24Z",
       "private": true
     },
     {
@@ -70,7 +83,20 @@
       "stack": "React · Vite · Supabase · Capacitor",
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-21T20:02:19Z",
+      "updatedAt": "2026-09-23T00:53:58Z",
+      "private": true
+    },
+    {
+      "id": "fcl-microfinance",
+      "title": "FCL (Fahari Credits Limited)",
+      "description": "Microfinance management — Vite, Supabase, React",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "JavaScript · Supabase · Vite · React",
+      "website": null,
+      "url": "https://github.com/gson463/fcl-microfinance",
+      "updatedAt": "2026-09-23T00:40:27Z",
       "private": true
     },
     {
@@ -227,32 +253,6 @@
       "website": null,
       "url": "https://github.com/gson463/ajiramiamoja",
       "updatedAt": "2026-09-20T17:59:04Z",
-      "private": true
-    },
-    {
-      "id": "mukwano",
-      "title": "Mukwano Financial Services",
-      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "React · Vite · Supabase",
-      "website": null,
-      "url": "https://github.com/gson463/mukwano",
-      "updatedAt": "2026-09-20T17:59:00Z",
-      "private": true
-    },
-    {
-      "id": "fcl-microfinance",
-      "title": "FCL (Fahari Credits Limited)",
-      "description": "Microfinance management — Vite, Supabase, React",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "JavaScript · Supabase · Vite · React",
-      "website": null,
-      "url": "https://github.com/gson463/fcl-microfinance",
-      "updatedAt": "2026-09-20T17:58:59Z",
       "private": true
     },
     {

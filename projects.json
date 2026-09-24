@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:33:15.261Z",
+  "generatedAt": "2026-09-24T10:51:09.980Z",
   "count": 32,
   "softwareCount": 27,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "updatedAt": "2026-09-24T10:51:09.980Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "updatedAt": "2026-09-24T10:51:09.980Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "updatedAt": "2026-09-24T10:51:09.980Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "updatedAt": "2026-09-24T10:51:09.980Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-23T10:33:15.261Z",
+      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "private": true
+    },
+    {
+      "id": "gosany-gohostels",
+      "title": "GoHostels One",
+      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "kind": "software",
+      "stack": "React · Vite · Supabase · Capacitor",
+      "website": "https://gosany.co.tz/gohostels",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-09-24T09:58:02Z",
       "private": true
     },
     {
@@ -71,19 +84,6 @@
       "website": null,
       "url": "https://github.com/gson463/mukwano",
       "updatedAt": "2026-09-23T08:20:24Z",
-      "private": true
-    },
-    {
-      "id": "gosany-gohostels",
-      "title": "GoHostels One",
-      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "kind": "software",
-      "stack": "React · Vite · Supabase · Capacitor",
-      "website": "https://gosany.co.tz/gohostels",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-23T00:53:58Z",
       "private": true
     },
     {

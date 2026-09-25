@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T10:51:09.980Z",
+  "generatedAt": "2026-09-25T10:54:58.065Z",
   "count": 32,
   "softwareCount": 27,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "updatedAt": "2026-09-25T10:54:58.065Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "updatedAt": "2026-09-25T10:54:58.065Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "updatedAt": "2026-09-25T10:54:58.065Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "updatedAt": "2026-09-25T10:54:58.065Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-24T10:51:09.980Z",
+      "updatedAt": "2026-09-25T10:54:58.065Z",
+      "private": true
+    },
+    {
+      "id": "sj-ecommerce",
+      "title": "Simu Jiji E-commerce",
+      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "kind": "software",
+      "stack": "TypeScript · TanStack · Supabase · Vercel",
+      "website": null,
+      "url": "https://github.com/gson463/sj-ecommerce",
+      "updatedAt": "2026-09-24T11:47:07Z",
       "private": true
     },
     {
@@ -70,7 +83,7 @@
       "stack": "React · Vite · Supabase · Capacitor",
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-24T09:58:02Z",
+      "updatedAt": "2026-09-24T11:19:42Z",
       "private": true
     },
     {
@@ -149,19 +162,6 @@
       "website": null,
       "url": "https://github.com/gson463/nyumba-cloud",
       "updatedAt": "2026-09-20T19:24:12Z",
-      "private": true
-    },
-    {
-      "id": "sj-ecommerce",
-      "title": "Simu Jiji E-commerce",
-      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
-      "category": "commerce",
-      "categoryLabel": "E-commerce",
-      "kind": "software",
-      "stack": "TypeScript · TanStack · Supabase · Vercel",
-      "website": null,
-      "url": "https://github.com/gson463/sj-ecommerce",
-      "updatedAt": "2026-09-20T19:18:21Z",
       "private": true
     },
     {

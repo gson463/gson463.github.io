@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:40:59.239Z",
+  "generatedAt": "2026-10-01T12:09:47.597Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-30T11:40:59.239Z",
+      "updatedAt": "2026-10-01T12:09:47.597Z",
       "private": true
     },
     {
@@ -23,7 +23,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-09-30T11:40:59.239Z",
+      "updatedAt": "2026-10-01T12:09:47.597Z",
       "private": true
     },
     {
@@ -34,7 +34,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-09-30T11:40:59.239Z",
+      "updatedAt": "2026-10-01T12:09:47.597Z",
       "private": true
     },
     {
@@ -45,7 +45,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-09-30T11:40:59.239Z",
+      "updatedAt": "2026-10-01T12:09:47.597Z",
       "private": true
     },
     {
@@ -57,7 +57,33 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-30T11:40:59.238Z",
+      "updatedAt": "2026-10-01T12:09:47.596Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano Financial Services",
+      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "React · Vite · Supabase",
+      "website": null,
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-10-01T06:26:31Z",
+      "private": true
+    },
+    {
+      "id": "gosany-gohostels",
+      "title": "GoHostels One",
+      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "kind": "software",
+      "stack": "React · Vite · Supabase · Capacitor",
+      "website": "https://gosany.co.tz/gohostels",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-01T05:47:28Z",
       "private": true
     },
     {
@@ -87,19 +113,6 @@
       "private": true
     },
     {
-      "id": "gosany-gohostels",
-      "title": "GoHostels One",
-      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "kind": "software",
-      "stack": "React · Vite · Supabase · Capacitor",
-      "website": "https://gosany.co.tz/gohostels",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-09-30T09:45:53Z",
-      "private": true
-    },
-    {
       "id": "sj-ecommerce",
       "title": "Simu Jiji E-commerce",
       "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
@@ -110,19 +123,6 @@
       "website": null,
       "url": "https://github.com/gson463/sj-ecommerce",
       "updatedAt": "2026-09-29T23:05:57Z",
-      "private": true
-    },
-    {
-      "id": "mukwano",
-      "title": "Mukwano Financial Services",
-      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "React · Vite · Supabase",
-      "website": null,
-      "url": "https://github.com/gson463/mukwano",
-      "updatedAt": "2026-09-28T17:17:08Z",
       "private": true
     },
     {

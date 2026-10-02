@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-01T12:09:47.597Z",
+  "generatedAt": "2026-10-02T11:40:02.524Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-02T11:40:02.524Z",
+      "private": true
+    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -12,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-01T12:09:47.597Z",
+      "updatedAt": "2026-10-02T11:40:02.524Z",
       "private": true
     },
     {
@@ -23,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-01T12:09:47.597Z",
+      "updatedAt": "2026-10-02T11:40:02.524Z",
       "private": true
     },
     {
@@ -34,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-01T12:09:47.597Z",
+      "updatedAt": "2026-10-02T11:40:02.524Z",
       "private": true
     },
     {
@@ -45,32 +57,33 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-01T12:09:47.597Z",
+      "updatedAt": "2026-10-02T11:40:02.524Z",
       "private": true
     },
     {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
+      "category": "property",
+      "categoryLabel": "Property",
       "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-01T12:09:47.596Z",
-      "private": true
-    },
-    {
-      "id": "mukwano",
-      "title": "Mukwano Financial Services",
-      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "React · Vite · Supabase",
+      "stack": "JavaScript",
       "website": null,
-      "url": "https://github.com/gson463/mukwano",
-      "updatedAt": "2026-10-01T06:26:31Z",
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-10-02T10:58:29Z",
+      "private": true
+    },
+    {
+      "id": "sj-ecommerce",
+      "title": "Simu Jiji E-commerce",
+      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "kind": "software",
+      "stack": "TypeScript · TanStack · Supabase · Vercel",
+      "website": null,
+      "url": "https://github.com/gson463/sj-ecommerce",
+      "updatedAt": "2026-10-02T10:05:25Z",
       "private": true
     },
     {
@@ -83,7 +96,33 @@
       "stack": "React · Vite · Supabase · Capacitor",
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-01T05:47:28Z",
+      "updatedAt": "2026-10-02T09:37:47Z",
+      "private": true
+    },
+    {
+      "id": "pharmacy-pms",
+      "title": "Pharmacy PMS",
+      "description": "Pharmacy operations platform — multi-branch inventory with batch and expiry tracking, real-time stock control, sales, purchases, expense management, role-based access, and automated reports.",
+      "category": "health",
+      "categoryLabel": "Healthcare",
+      "kind": "software",
+      "stack": "Next.js · TypeScript · Prisma · SQLite",
+      "website": null,
+      "url": "https://github.com/gson463/pharmacy-pms",
+      "updatedAt": "2026-10-02T06:53:31Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano Financial Services",
+      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "React · Vite · Supabase",
+      "website": null,
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-10-01T18:39:55Z",
       "private": true
     },
     {
@@ -110,19 +149,6 @@
       "website": null,
       "url": "https://github.com/gson463/GTL",
       "updatedAt": "2026-09-30T10:05:27Z",
-      "private": true
-    },
-    {
-      "id": "sj-ecommerce",
-      "title": "Simu Jiji E-commerce",
-      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
-      "category": "commerce",
-      "categoryLabel": "E-commerce",
-      "kind": "software",
-      "stack": "TypeScript · TanStack · Supabase · Vercel",
-      "website": null,
-      "url": "https://github.com/gson463/sj-ecommerce",
-      "updatedAt": "2026-09-29T23:05:57Z",
       "private": true
     },
     {
@@ -175,19 +201,6 @@
       "website": "https://voguethics.org",
       "url": "https://github.com/gson463/voguethics",
       "updatedAt": "2026-09-20T19:35:19Z",
-      "private": true
-    },
-    {
-      "id": "nyumba-cloud",
-      "title": "Nyumba Cloud",
-      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
-      "category": "property",
-      "categoryLabel": "Property",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/nyumba-cloud",
-      "updatedAt": "2026-09-20T19:24:12Z",
       "private": true
     },
     {
@@ -357,19 +370,6 @@
       "website": null,
       "url": "https://github.com/gson463/FaraghaIQ",
       "updatedAt": "2026-07-20T16:52:48Z",
-      "private": true
-    },
-    {
-      "id": "pharmacy-pms",
-      "title": "Pharmacy PMS",
-      "description": "Pharmacy operations platform — multi-branch inventory with batch and expiry tracking, real-time stock control, sales, purchases, expense management, role-based access, and automated reports.",
-      "category": "health",
-      "categoryLabel": "Healthcare",
-      "kind": "software",
-      "stack": "Next.js · TypeScript · Prisma · SQLite",
-      "website": null,
-      "url": "https://github.com/gson463/pharmacy-pms",
-      "updatedAt": "2026-05-20T22:47:54Z",
       "private": true
     },
     {

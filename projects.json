@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-08T12:33:55.608Z",
+  "generatedAt": "2026-10-09T12:21:51.371Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "private": true
+    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -12,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-08T12:33:55.608Z",
+      "updatedAt": "2026-10-09T12:21:51.371Z",
       "private": true
     },
     {
@@ -23,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-08T12:33:55.608Z",
+      "updatedAt": "2026-10-09T12:21:51.371Z",
       "private": true
     },
     {
@@ -34,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-08T12:33:55.608Z",
+      "updatedAt": "2026-10-09T12:21:51.371Z",
       "private": true
     },
     {
@@ -45,19 +57,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-08T12:33:55.608Z",
-      "private": true
-    },
-    {
-      "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-08T12:33:55.607Z",
+      "updatedAt": "2026-10-09T12:21:51.371Z",
       "private": true
     },
     {
@@ -70,7 +70,33 @@
       "stack": "React · Vite · Supabase · Capacitor",
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-03T20:17:46Z",
+      "updatedAt": "2026-10-09T09:23:17Z",
+      "private": true
+    },
+    {
+      "id": "gosany-billing",
+      "title": "Gosany Billing",
+      "description": "Gosany Billing — Selcom bridge for Go Hostels (private)",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/gosany-billing",
+      "updatedAt": "2026-10-09T06:48:58Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano Financial Services",
+      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "React · Vite · Supabase",
+      "website": null,
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-10-09T06:01:22Z",
       "private": true
     },
     {
@@ -113,19 +139,6 @@
       "private": true
     },
     {
-      "id": "mukwano",
-      "title": "Mukwano Financial Services",
-      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "React · Vite · Supabase",
-      "website": null,
-      "url": "https://github.com/gson463/mukwano",
-      "updatedAt": "2026-10-01T18:39:55Z",
-      "private": true
-    },
-    {
       "id": "gnasp-technologies",
       "title": "Gnasp Technologies",
       "description": "GNASP Technologies Limited — company website (Vite + React)",
@@ -162,19 +175,6 @@
       "website": null,
       "url": "https://github.com/gson463/fcl-microfinance",
       "updatedAt": "2026-09-23T00:40:27Z",
-      "private": true
-    },
-    {
-      "id": "gosany-billing",
-      "title": "Gosany Billing",
-      "description": "Gosany Billing — Selcom bridge for Go Hostels (private)",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/gosany-billing",
-      "updatedAt": "2026-09-21T18:38:37Z",
       "private": true
     },
     {

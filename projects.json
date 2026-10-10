@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:21:51.371Z",
+  "generatedAt": "2026-10-10T11:40:30.777Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "updatedAt": "2026-10-10T11:40:30.777Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "updatedAt": "2026-10-10T11:40:30.777Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "updatedAt": "2026-10-10T11:40:30.777Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "updatedAt": "2026-10-10T11:40:30.777Z",
       "private": true
     },
     {
@@ -57,7 +57,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-09T12:21:51.371Z",
+      "updatedAt": "2026-10-10T11:40:30.777Z",
       "private": true
     },
     {

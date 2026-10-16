@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:38:11.384Z",
+  "generatedAt": "2026-10-16T10:25:06.386Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-15T10:38:11.384Z",
+      "updatedAt": "2026-10-16T10:25:06.385Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-15T10:38:11.384Z",
+      "updatedAt": "2026-10-16T10:25:06.385Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-15T10:38:11.384Z",
+      "updatedAt": "2026-10-16T10:25:06.385Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-15T10:38:11.384Z",
+      "updatedAt": "2026-10-16T10:25:06.385Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-15T10:38:11.384Z",
+      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "private": true
+    },
+    {
+      "id": "simu-jiji-system",
+      "title": "Simu Jiji Portal",
+      "description": "Simu Jiji - phone business management",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/simu-jiji-system",
+      "updatedAt": "2026-10-15T15:18:56Z",
       "private": true
     },
     {
@@ -318,19 +331,6 @@
       "website": "https://ibsaccounts.com",
       "url": "https://github.com/gson463/ibs-web-d",
       "updatedAt": "2026-09-01T15:25:16Z",
-      "private": true
-    },
-    {
-      "id": "simu-jiji-system",
-      "title": "Simu Jiji Portal",
-      "description": "Simu Jiji - phone business management",
-      "category": "commerce",
-      "categoryLabel": "E-commerce",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/simu-jiji-system",
-      "updatedAt": "2026-08-26T20:07:55Z",
       "private": true
     },
     {

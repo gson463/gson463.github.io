@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T10:25:06.386Z",
+  "generatedAt": "2026-10-17T09:57:02.915Z",
   "count": 34,
   "softwareCount": 29,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "updatedAt": "2026-10-17T09:57:02.915Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "updatedAt": "2026-10-17T09:57:02.915Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "updatedAt": "2026-10-17T09:57:02.915Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "updatedAt": "2026-10-17T09:57:02.915Z",
       "private": true
     },
     {
@@ -57,7 +57,33 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-16T10:25:06.385Z",
+      "updatedAt": "2026-10-17T09:57:02.915Z",
+      "private": true
+    },
+    {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
+      "category": "property",
+      "categoryLabel": "Property",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-10-16T12:38:11Z",
+      "private": true
+    },
+    {
+      "id": "mukwano",
+      "title": "Mukwano Financial Services",
+      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "React · Vite · Supabase",
+      "website": null,
+      "url": "https://github.com/gson463/mukwano",
+      "updatedAt": "2026-10-16T10:28:33Z",
       "private": true
     },
     {
@@ -87,19 +113,6 @@
       "private": true
     },
     {
-      "id": "mukwano",
-      "title": "Mukwano Financial Services",
-      "description": "Mukwano Financial Services — secure microfinance platform with borrowers, loans, centers and groups mapped to branches, disbursements, repayments and installment schedules, arrears and defaulter tracking, portfolio dashboards, role-based access for admins, branch managers and loan officers, live sync, and reports.",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "React · Vite · Supabase",
-      "website": null,
-      "url": "https://github.com/gson463/mukwano",
-      "updatedAt": "2026-10-14T05:59:59Z",
-      "private": true
-    },
-    {
       "id": "gosany-billing",
       "title": "Gosany Billing",
       "description": "Gosany Billing — Selcom bridge for Go Hostels (private)",
@@ -110,19 +123,6 @@
       "website": null,
       "url": "https://github.com/gson463/gosany-billing",
       "updatedAt": "2026-10-09T06:48:58Z",
-      "private": true
-    },
-    {
-      "id": "nyumba-cloud",
-      "title": "Nyumba Cloud",
-      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
-      "category": "property",
-      "categoryLabel": "Property",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/nyumba-cloud",
-      "updatedAt": "2026-10-02T10:58:29Z",
       "private": true
     },
     {

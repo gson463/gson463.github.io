@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-26T11:59:19.066Z",
+  "generatedAt": "2026-10-27T11:20:44.160Z",
   "count": 36,
   "softwareCount": 31,
   "projects": [
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-27T11:20:44.160Z",
+      "private": true
+    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -12,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-26T11:59:19.066Z",
+      "updatedAt": "2026-10-27T11:20:44.160Z",
       "private": true
     },
     {
@@ -23,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-26T11:59:19.066Z",
+      "updatedAt": "2026-10-27T11:20:44.160Z",
       "private": true
     },
     {
@@ -34,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-26T11:59:19.066Z",
+      "updatedAt": "2026-10-27T11:20:44.160Z",
       "private": true
     },
     {
@@ -45,19 +57,33 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-26T11:59:19.066Z",
+      "updatedAt": "2026-10-27T11:20:44.160Z",
       "private": true
     },
     {
+      "id": "sj-ecommerce",
+      "title": "Simu Jiji E-commerce",
+      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
+      "category": "commerce",
+      "categoryLabel": "E-commerce",
       "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "stack": "TypeScript · TanStack · Supabase · Vercel",
+      "website": null,
+      "url": "https://github.com/gson463/sj-ecommerce",
+      "updatedAt": "2026-10-26T22:12:35Z",
+      "private": true
+    },
+    {
+      "id": "gosany-billing",
+      "title": "Gosany Billing",
+      "description": "Gosany Billing — Selcom bridge for Go Hostels (private)",
       "category": "platform",
       "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-26T11:59:19.065Z",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/gosany-billing",
+      "updatedAt": "2026-10-26T19:17:12Z",
       "private": true
     },
     {
@@ -84,19 +110,6 @@
       "website": null,
       "url": "https://github.com/gson463/go-safari",
       "updatedAt": "2026-10-25T23:15:22Z",
-      "private": true
-    },
-    {
-      "id": "sj-ecommerce",
-      "title": "Simu Jiji E-commerce",
-      "description": "Simu Jiji Tanzania ecommerce — TanStack Start, Supabase, Vercel",
-      "category": "commerce",
-      "categoryLabel": "E-commerce",
-      "kind": "software",
-      "stack": "TypeScript · TanStack · Supabase · Vercel",
-      "website": null,
-      "url": "https://github.com/gson463/sj-ecommerce",
-      "updatedAt": "2026-10-23T18:44:28Z",
       "private": true
     },
     {
@@ -149,19 +162,6 @@
       "website": null,
       "url": "https://github.com/gson463/simu-jiji-system",
       "updatedAt": "2026-10-15T15:18:56Z",
-      "private": true
-    },
-    {
-      "id": "gosany-billing",
-      "title": "Gosany Billing",
-      "description": "Gosany Billing — Selcom bridge for Go Hostels (private)",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/gosany-billing",
-      "updatedAt": "2026-10-09T06:48:58Z",
       "private": true
     },
     {

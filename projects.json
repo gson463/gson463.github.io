@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:54:13.593Z",
+  "generatedAt": "2026-10-29T12:02:05.917Z",
   "count": 36,
   "softwareCount": 31,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-28T11:54:13.593Z",
+      "updatedAt": "2026-10-29T12:02:05.917Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-28T11:54:13.593Z",
+      "updatedAt": "2026-10-29T12:02:05.917Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-28T11:54:13.593Z",
+      "updatedAt": "2026-10-29T12:02:05.917Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-28T11:54:13.593Z",
+      "updatedAt": "2026-10-29T12:02:05.917Z",
       "private": true
     },
     {
@@ -57,7 +57,20 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-28T11:54:13.593Z",
+      "updatedAt": "2026-10-29T12:02:05.917Z",
+      "private": true
+    },
+    {
+      "id": "fcl-microfinance",
+      "title": "FCL (Fahari Credits Limited)",
+      "description": "Microfinance management — Vite, Supabase, React",
+      "category": "finance",
+      "categoryLabel": "Finance",
+      "kind": "software",
+      "stack": "JavaScript · Supabase · Vite · React",
+      "website": null,
+      "url": "https://github.com/gson463/fcl-microfinance",
+      "updatedAt": "2026-10-28T21:37:09Z",
       "private": true
     },
     {
@@ -201,19 +214,6 @@
       "website": null,
       "url": "https://github.com/gson463/GTL",
       "updatedAt": "2026-09-30T10:05:27Z",
-      "private": true
-    },
-    {
-      "id": "fcl-microfinance",
-      "title": "FCL (Fahari Credits Limited)",
-      "description": "Microfinance management — Vite, Supabase, React",
-      "category": "finance",
-      "categoryLabel": "Finance",
-      "kind": "software",
-      "stack": "JavaScript · Supabase · Vite · React",
-      "website": null,
-      "url": "https://github.com/gson463/fcl-microfinance",
-      "updatedAt": "2026-09-23T00:40:27Z",
       "private": true
     },
     {

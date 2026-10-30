@@ -1,20 +1,8 @@
 {
-  "generatedAt": "2026-10-29T12:02:05.917Z",
+  "generatedAt": "2026-10-30T11:55:38.790Z",
   "count": 36,
   "softwareCount": 31,
   "projects": [
-    {
-      "kind": "software",
-      "id": "gohostels-one-student-app",
-      "title": "GoHostels One — Student App",
-      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "stack": "Capacitor · React · Android · iOS",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-29T12:02:05.917Z",
-      "private": true
-    },
     {
       "kind": "software",
       "id": "gohostels-one-landlord-app",
@@ -24,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-29T12:02:05.917Z",
+      "updatedAt": "2026-10-30T11:55:38.790Z",
       "private": true
     },
     {
@@ -35,7 +23,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-10-29T12:02:05.917Z",
+      "updatedAt": "2026-10-30T11:55:38.790Z",
       "private": true
     },
     {
@@ -46,7 +34,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-10-29T12:02:05.917Z",
+      "updatedAt": "2026-10-30T11:55:38.790Z",
       "private": true
     },
     {
@@ -57,7 +45,45 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-10-29T12:02:05.917Z",
+      "updatedAt": "2026-10-30T11:55:38.790Z",
+      "private": true
+    },
+    {
+      "kind": "software",
+      "id": "gohostels-one-student-app",
+      "title": "GoHostels One — Student App",
+      "description": "Android & iOS mobile app for students — search hostels, book rooms, pay rent, and manage tenancy on the go.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "stack": "Capacitor · React · Android · iOS",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-30T11:55:38.789Z",
+      "private": true
+    },
+    {
+      "id": "go-safari",
+      "title": "Go Safari",
+      "description": "Software system designed and built as lead developer.",
+      "category": "other",
+      "categoryLabel": "Other",
+      "kind": "software",
+      "stack": "TypeScript",
+      "website": null,
+      "url": "https://github.com/gson463/go-safari",
+      "updatedAt": "2026-10-30T10:56:38Z",
+      "private": true
+    },
+    {
+      "id": "gosany-gohostels",
+      "title": "GoHostels One",
+      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
+      "category": "platform",
+      "categoryLabel": "Platform",
+      "kind": "software",
+      "stack": "React · Vite · Supabase · Capacitor",
+      "website": "https://gosany.co.tz/gohostels",
+      "url": "https://github.com/gson463/gosany-gohostels",
+      "updatedAt": "2026-10-30T09:11:18Z",
       "private": true
     },
     {
@@ -97,32 +123,6 @@
       "website": null,
       "url": "https://github.com/gson463/gosany-billing",
       "updatedAt": "2026-10-26T19:17:12Z",
-      "private": true
-    },
-    {
-      "id": "gosany-gohostels",
-      "title": "GoHostels One",
-      "description": "GoHostels One platform — hostel discovery, booking, rent payments, and tenancy management for students and landlords in Tanzania.",
-      "category": "platform",
-      "categoryLabel": "Platform",
-      "kind": "software",
-      "stack": "React · Vite · Supabase · Capacitor",
-      "website": "https://gosany.co.tz/gohostels",
-      "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-10-26T08:16:49Z",
-      "private": true
-    },
-    {
-      "id": "go-safari",
-      "title": "Go Safari",
-      "description": "Software system designed and built as lead developer.",
-      "category": "other",
-      "categoryLabel": "Other",
-      "kind": "software",
-      "stack": "TypeScript",
-      "website": null,
-      "url": "https://github.com/gson463/go-safari",
-      "updatedAt": "2026-10-25T23:15:22Z",
       "private": true
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:22:53.628Z",
+  "generatedAt": "2026-11-04T13:33:48.126Z",
   "count": 36,
   "softwareCount": 31,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-11-03T13:22:53.628Z",
+      "updatedAt": "2026-11-04T13:33:48.126Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-11-03T13:22:53.628Z",
+      "updatedAt": "2026-11-04T13:33:48.126Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-11-03T13:22:53.628Z",
+      "updatedAt": "2026-11-04T13:33:48.126Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-11-03T13:22:53.628Z",
+      "updatedAt": "2026-11-04T13:33:48.126Z",
       "private": true
     },
     {
@@ -57,7 +57,33 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-11-03T13:22:53.628Z",
+      "updatedAt": "2026-11-04T13:33:48.126Z",
+      "private": true
+    },
+    {
+      "id": "voguethics",
+      "title": "Vogu Ethics",
+      "description": "Cybersecurity and security awareness training from Tanzania.",
+      "category": "security",
+      "categoryLabel": "Security",
+      "kind": "website",
+      "stack": "TypeScript",
+      "website": "https://voguethics.org",
+      "url": "https://github.com/gson463/voguethics",
+      "updatedAt": "2026-11-03T22:47:57Z",
+      "private": true
+    },
+    {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
+      "category": "property",
+      "categoryLabel": "Property",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-11-03T13:25:23Z",
       "private": true
     },
     {
@@ -152,19 +178,6 @@
       "private": true
     },
     {
-      "id": "nyumba-cloud",
-      "title": "Nyumba Cloud",
-      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
-      "category": "property",
-      "categoryLabel": "Property",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/nyumba-cloud",
-      "updatedAt": "2026-10-18T23:31:26Z",
-      "private": true
-    },
-    {
       "id": "simu-jiji-system",
       "title": "Simu Jiji Portal",
       "description": "Simu Jiji - phone business management",
@@ -227,19 +240,6 @@
       "website": null,
       "url": "https://github.com/gson463/snet-hotspot",
       "updatedAt": "2026-09-21T18:31:47Z",
-      "private": true
-    },
-    {
-      "id": "voguethics",
-      "title": "Vogu Ethics",
-      "description": "Cybersecurity and security awareness training from Tanzania.",
-      "category": "security",
-      "categoryLabel": "Security",
-      "kind": "website",
-      "stack": "TypeScript",
-      "website": "https://voguethics.org",
-      "url": "https://github.com/gson463/voguethics",
-      "updatedAt": "2026-09-20T19:35:19Z",
       "private": true
     },
     {

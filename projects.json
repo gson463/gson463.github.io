@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T12:12:25.946Z",
+  "generatedAt": "2026-11-08T12:32:07.229Z",
   "count": 36,
   "softwareCount": 31,
   "projects": [
@@ -12,7 +12,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-11-07T12:12:25.946Z",
+      "updatedAt": "2026-11-08T12:32:07.229Z",
       "private": true
     },
     {
@@ -24,7 +24,7 @@
       "categoryLabel": "Platform",
       "stack": "Capacitor · React · Android · iOS",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-11-07T12:12:25.946Z",
+      "updatedAt": "2026-11-08T12:32:07.229Z",
       "private": true
     },
     {
@@ -35,7 +35,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Electron · React · SQLite",
-      "updatedAt": "2026-11-07T12:12:25.946Z",
+      "updatedAt": "2026-11-08T12:32:07.229Z",
       "private": true
     },
     {
@@ -46,7 +46,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "Expo · React Native · Supabase · TypeScript",
-      "updatedAt": "2026-11-07T12:12:25.946Z",
+      "updatedAt": "2026-11-08T12:32:07.229Z",
       "private": true
     },
     {
@@ -57,20 +57,7 @@
       "category": "community",
       "categoryLabel": "Community",
       "stack": "React",
-      "updatedAt": "2026-11-07T12:12:25.946Z",
-      "private": true
-    },
-    {
-      "id": "nyumba-cloud",
-      "title": "Nyumba Cloud",
-      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
-      "category": "property",
-      "categoryLabel": "Property",
-      "kind": "software",
-      "stack": "JavaScript",
-      "website": null,
-      "url": "https://github.com/gson463/nyumba-cloud",
-      "updatedAt": "2026-11-07T12:04:14Z",
+      "updatedAt": "2026-11-08T12:32:07.229Z",
       "private": true
     },
     {
@@ -83,7 +70,7 @@
       "stack": "React · Vite · Supabase · Capacitor",
       "website": "https://gosany.co.tz/gohostels",
       "url": "https://github.com/gson463/gosany-gohostels",
-      "updatedAt": "2026-11-04T21:56:02Z",
+      "updatedAt": "2026-11-08T00:11:46Z",
       "private": true
     },
     {
@@ -96,7 +83,20 @@
       "stack": "TypeScript",
       "website": null,
       "url": "https://github.com/gson463/go-safari",
-      "updatedAt": "2026-11-04T21:56:02Z",
+      "updatedAt": "2026-11-08T00:11:43Z",
+      "private": true
+    },
+    {
+      "id": "nyumba-cloud",
+      "title": "Nyumba Cloud",
+      "description": "Property and tenancy management — units, tenants, leases, invoices, and payments.",
+      "category": "property",
+      "categoryLabel": "Property",
+      "kind": "software",
+      "stack": "JavaScript",
+      "website": null,
+      "url": "https://github.com/gson463/nyumba-cloud",
+      "updatedAt": "2026-11-07T20:10:51Z",
       "private": true
     },
     {
